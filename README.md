@@ -1,6 +1,6 @@
 # Design and implement the python program for adding bullets to wiki markup.
 import pyperclip
-pyperclip.copy("hello world")
+pyperclip.copy("helloworld")
 text=pyperclip.paste() 
 lines=text.split('\n')
 for i in range(len(lines)):
